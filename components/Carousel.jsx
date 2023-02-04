@@ -14,7 +14,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 export default function Carousel() {
   return (
-    <>
+    <div>
       <Swiper
         cssMode={true}
         navigation={true}
@@ -65,6 +65,6 @@ export default function Carousel() {
           />
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
